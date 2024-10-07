@@ -50,8 +50,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="min-h-screen w-full bg-slate-100 flex justify-center items-center">
-        <div className="bg-white flex-1 max-w-md rounded-xl shadow-xl overflow-hidden">
+      <div className="min-h-screen w-full bg-slate-100 flex justify-center items-center flex-col">
+        <h1 className="text-5xl bold text-center my-8 font-bold text-slate-600">
+          TODO App
+        </h1>
+        <div className="bg-white max-w-md rounded-xl shadow-xl overflow-hidden">
           <input
             type="text"
             className="bg-slate-600 text-white p-6 w-full outline-none text-3xl"
